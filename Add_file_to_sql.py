@@ -9,7 +9,7 @@ def connect_to_database():
     return pymysql.connect(
         host='localhost',
         user='root',
-        password='Rmik0412.',
+        password='root',
         database='dataviz_m2_proj',
         charset='utf8mb4',
         autocommit=False  # Disable autocommit for better batch performance
